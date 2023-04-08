@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Splash_Screen">
+    tools:context=".Splash_Screen"
+    android:background="#273a69">
+
 
     <TextView
         android:id="@+id/textView"
@@ -13,9 +15,9 @@
         android:layout_marginBottom="252dp"
         android:fontFamily="sans-serif-light"
         android:text="EVAN"
-        android:textColor="#01588e"
+        android:textColor="@color/white"
         android:textSize="60sp"
-        android:textStyle="bold"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
