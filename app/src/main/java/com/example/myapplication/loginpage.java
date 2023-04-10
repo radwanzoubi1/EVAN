@@ -14,16 +14,7 @@ public class loginpage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loginpage);
-        TextView cliclhere = findViewById(R.id.click_here);
-        Button button = findViewById(R.id.signupbtn);
-
-
     }
-//    public void onClick(View view){
-//        Intent intent = new Intent(this , signpage.class);
-//        startActivity(intent);
-//        finish();
-//    }
 
 
 
