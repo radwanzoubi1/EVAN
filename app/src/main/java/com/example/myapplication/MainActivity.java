@@ -16,14 +16,14 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view){
         Intent intent = new Intent(this , signpage.class);
         startActivity(intent);
-        finish();
+
 
     }
 
     public void loginClick(View view){
         Intent intent = new Intent(this , homepage.class);
         startActivity(intent);
-        finish();
+
 
     }
 }

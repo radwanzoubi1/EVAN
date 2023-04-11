@@ -14,14 +14,14 @@ public class signpage extends AppCompatActivity {
         setContentView(R.layout.activity_signpage);
     }
     public void onRegesterClick(View view) {
-        Intent intent = new Intent(signpage.this , loginpage.class) ;
+        Intent intent = new Intent(signpage.this , MainActivity.class) ;
         startActivity(intent);
         Toast toast=Toast.makeText(getApplicationContext(),"Login please ",Toast.LENGTH_SHORT);
 
         toast.show();
 
 
-        finish();
+
 
     }
 }
