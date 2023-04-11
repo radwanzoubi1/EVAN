@@ -37,12 +37,15 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:background="#1b2a52"
-        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:inputType="text"
+
         android:drawablePadding="20dp"
         android:hint="Username"
         android:padding="20dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person3_24"
+        />
 
 
 
@@ -84,17 +87,17 @@
         />
 
     <TextView
+        android:id="@+id/dont"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/dont"
         android:layout_below="@id/signupbtn"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
         android:text="Don't have account ?"
         android:textColor="@color/white"
         android:textSize="15dp"
-        android:textStyle="bold"
-        android:layout_marginLeft="50dp"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/click_here"
