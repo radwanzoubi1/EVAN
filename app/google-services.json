@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "508531134244",
+    "project_id": "e-van-authentication",
+    "storage_bucket": "e-van-authentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508531134244:android:a835a9f014ff27cac72db1",
+        "android_client_info": {
+          "package_name": "com.example.e_van"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508531134244-fue1h84v42nr1mbksb59ohm6kbm8j95b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCtf1enqvXM26x1dldtxienTVK37RZsZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508531134244-fue1h84v42nr1mbksb59ohm6kbm8j95b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

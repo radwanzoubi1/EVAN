@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Evan admin</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="register">REGISTER</string>
+    <string name="don_t_have_account">Don\'t have account ?</string>
+    <string name="evan">EVAN</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us_via_phone">Contact us via Phone</string>
+    <string name="contact_us_via_email">Contact us via Email</string>
+    <string name="e_mail">E-mail</string>
+    <string name="log_in">LOG IN</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="aboutUsText">Welcome to EVAN - Your Reliable Road Assistance App!\n\nAt EVAN, our mission is to provide immediate help and support during road emergencies, ensuring your safety and peace of mind. Our app is designed to connect you with professional roadside assistance services swiftly and efficiently.\n\nKey Features:\n\n1. Emergency Assistance: Whether you\'re facing a flat tire, engine trouble, or any other roadside emergency, RoadEmergency is here to help. With just a few taps on your phone, you can quickly request assistance from our network of trusted service providers who will promptly come to your location.\n\n2. GPS Location Tracking: RoadEmergency utilizes GPS technology to pinpoint your exact location. This feature ensures that our service providers can locate you quickly, even in unfamiliar areas or during stressful situations.\n\n3. 24/7 Availability: We understand that emergencies can happen at any time, which is why our services are available 24 hours a day, 7 days a week. Whether it\'s the middle of the night or a holiday, you can count on RoadEmergency to connect you with the help you need.\n\n4. Towing Services: If your vehicle requires towing, RoadEmergency offers towing services to transport your vehicle to the nearest repair facility or a location of your choice. Our towing partners are experienced professionals who will handle your vehicle with care.\n\n5. Reliable Network: We have established a reliable network of certified and licensed service providers who are trained to handle various roadside emergencies. Rest assured that when you use RoadEmergency, you are in good hands.\n  This helps us maintain high-quality standards and ensures that we consistently deliver excellent assistance.\n\nAt EVAN, your safety and convenience are our top priorities. We are dedicated to providing you with a seamless and reliable road emergency assistance experience.\n</string>
+</resources>
