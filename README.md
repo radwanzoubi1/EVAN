@@ -1,5 +1,9 @@
+Here’s the updated README with placeholders for your image links in the samples section:
+
+---
 
 # EVAN - Emergency Vehicle Assistance Network
+
 EVAN is an innovative mobile application designed to provide seamless roadside assistance to drivers encountering emergencies. Whether it's a flat tire, dead battery, or running out of fuel, EVAN ensures help is just a few taps away. Developed as a final-year project by a team of Computer Science students at Yarmouk University, EVAN combines user-centric design with cutting-edge technology to deliver reliable support for drivers worldwide.
 
 EVAN is a dual-application platform designed to provide seamless roadside assistance services through:
@@ -41,40 +45,62 @@ These applications utilize advanced technologies like Firebase, Google Maps, and
 
 ---
 
-## Dataset Overview
+## Project Presentation
+### Key Highlights:
+- Roadside assistance made accessible and efficient through dual applications.
+- Firebase integration for secure and real-time communication.
+- Geolocation services for real-time tracking and provider navigation.
+[Evan presantation](<https://github.com/radwanzoubi1/EVAN/blob/main/App%20description/evan%20Presentation%20last%20edition.pptx>)
+---
 
-### User Requests Database:
-- **Data Type**: Real-time request details.
-- **Attributes**:
-  - **User Information**: Name, phone, email.
-  - **Service Details**: Request type, location, cost.
-  - **Geolocation**: Latitude and longitude.
+## System Diagrams
 
-### Admin Management Database:
-- **Data Type**: Firebase collections.
-- **Attributes**:
-  - **Requests**: Organized by user, service, and status.
-  - **Provider Feedback**: Status updates, completion records.
+### Use Case Diagram:
+The Use Case Diagram illustrates the interaction between users, providers, and admins in the EVAN system.
+
+![Use Case Diagram](<https://github.com/radwanzoubi1/EVAN/blob/main/App%20description/Use%20Case%20diagram.JPG>)
 
 ---
 
-## Key Features
+### Data Flow Diagram:
+A Data Flow Diagram (DFD) represents the flow of information between the components of EVAN.
 
-### **User App**:
-1. **Request Submission**:
+![Data Flow Diagram](<https://github.com/radwanzoubi1/EVAN/blob/main/App%20description/Data%20flow%20diagram.JPG>)
+
+---
+
+### Flowchart:
+This flowchart explains the sequence of processes from user request submission to service completion.
+
+![Flowchart](<https://github.com/radwanzoubi1/EVAN/blob/main/App%20description/Flow%20chart.JPG>)
+
+---
+
+## App Samples
+
+### **User App:**
+1. **Login and Registration**:
+   - Secure login for existing users.
+   - Simple registration for new users.
+   ![Login and Registration](<https://github.com/radwanzoubi1/EVAN/blob/main/App%20description/Login.JPG>)
+
+2. **Profile and Home**:
+   - View and update user information.
+   - Select services directly from the home screen.
+   ![Profile and Home](<https://github.com/radwanzoubi1/EVAN/blob/main/App%20description/Profile%20and%20home.JPG>)
+
+3. **Submit Order and Waiting for Provider**:
    - Submit requests with geolocation and service type.
-2. **Live Tracking**:
-   - Monitor provider's progress and estimated arrival.
-3. **Feedback Integration**:
-   - Share feedback after service completion.
+   - Track provider's location and ETA.
+   ![Submit Order and Waiting](<https://github.com/radwanzoubi1/EVAN/blob/main/App%20description/Submit%20the%20oreder.JPG>)
 
-### **Admin App**:
-1. **Dashboard**:
-   - List active user requests with details.
-2. **Real-Time Navigation**:
-   - Integrated Google Maps navigation.
-3. **Request Fulfillment**:
-   - Complete requests and remove from active list.
+---
+
+### **Admin App:**
+1. **Admin Dashboard**:
+   - View and manage all user requests in real time.
+   - Navigate to user locations using integrated Google Maps.
+   ![Admin Dashboard](https://github.com/radwanzoubi1/EVAN/blob/main/App%20description/admin%20app.JPG)
 
 ---
 
@@ -101,7 +127,7 @@ These applications utilize advanced technologies like Firebase, Google Maps, and
 ### Steps:
 1. **Clone the Repository**:
    ```bash
-   https://github.com/radwanzoubi1/EVAN.git
+   git clone https://github.com/radwanzoubi1/EVAN.git
    ```
 2. **Import Projects**:
    - Open `evan_user` and `evan_admin` in Android Studio.
@@ -169,15 +195,3 @@ evan_admin/
    - Core development environment.
 4. **Material Design**:
    - For a clean and modern user interface.
-
----
-
-## Future Enhancements
-
-1. **Cross-Platform Support**:
-   - Develop iOS versions of both apps.
-2. **Analytics Dashboard**:
-   - Add detailed analytics for service performance.
-3. **Advanced Features**:
-   - Multi-language support.
-   - AI-based predictions for ETAs and service recommendations.
